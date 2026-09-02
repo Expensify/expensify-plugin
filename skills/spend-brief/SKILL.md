@@ -1,3 +1,10 @@
+---
+name: spend-brief
+description: Generate a plain-English spend summary for a time period, organized by total, category, person, and vendor, with anomaly flags and recommended next steps.
+triggers:
+  - /expensify:spend-brief
+---
+
 # Spend Brief
 
 Triggered by `/expensify:spend-brief`. Produces a plain-English spend summary for a given time period, organized by total, category, person, and vendor, with anomaly flags and recommended next steps.

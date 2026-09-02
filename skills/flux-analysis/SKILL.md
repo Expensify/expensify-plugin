@@ -1,3 +1,10 @@
+---
+name: flux-analysis
+description: Compare spending across two periods to identify what changed and why, surfacing the biggest movers by category and vendor with a plain-English explanation.
+triggers:
+  - /expensify:flux-analysis
+---
+
 # Flux Analysis
 
 Triggered by `/expensify:flux-analysis`. Compares spending across two periods — current vs. prior — identifies significant changes by category and vendor, and explains what drove the variance.
