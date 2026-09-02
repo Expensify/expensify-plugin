@@ -22,9 +22,25 @@ Compare spending across two periods to identify what changed and why. Claude sur
 
 ## Setup
 
-1. Install this plugin from the Claude plugin directory.
-2. When prompted, sign in to your Expensify account to authorize Claude's access.
-3. Claude can now answer questions about your expenses and use the skills above.
+### From the Claude plugin directory (once listed)
+
+1. Open **Customize → Plugins → Browse plugins** in Claude Cowork.
+2. Search for "Expensify" and click **Install**.
+3. When prompted, sign in to your Expensify account to authorize access.
+
+### Add this repo as a marketplace (available now)
+
+1. Open **Customize → Plugins → Add marketplace** in Claude Cowork.
+2. Enter `Expensify/expensify-plugin` and confirm.
+3. The plugin appears in your marketplace list — click **Install**.
+4. When prompted, sign in to your Expensify account to authorize access.
+
+### Install from a zip file
+
+1. Download the latest zip from the [releases page](https://github.com/Expensify/expensify-plugin/releases) (or zip this repo yourself).
+2. Open **Customize → Plugins → Add plugin → Upload plugin** in Claude Cowork.
+3. Select the zip file and install.
+4. When prompted, sign in to your Expensify account to authorize access.
 
 ## Privacy
 
