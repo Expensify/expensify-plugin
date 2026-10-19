@@ -1,10 +1,10 @@
-# Expensify Plugin for Claude
+# Expensify AI Plugin
 
-Connect Claude to your Expensify account and analyze your financial data using natural language.
+This repository contains Expensify integrations for AI platforms. It currently supports Claude; support for additional platforms will be added here over time.
 
-## What this plugin does
+## Claude
 
-This plugin connects Claude to the Expensify MCP server, giving Claude live access to your expenses, reports, receipts, trips, and workspace data. It includes two built-in skills for common financial workflows.
+Connect Claude to your Expensify account and analyze your financial data using natural language. The Claude plugin is defined in `.claude-plugin/` and includes two built-in skills.
 
 ## Skills
 
@@ -37,11 +37,11 @@ Compare spending across two periods to identify what changed and why. Claude sur
 
 ### Install from a zip file
 
-1. Download the latest zip from the [releases page](https://github.com/Expensify/expensify-plugin/releases) (or zip this repo yourself).
+1. Zip this repo yourself: `zip -r expensify-plugin.zip .`
 2. Open **Customize → Plugins → Add plugin → Upload plugin** in Claude Cowork.
 3. Select the zip file and install.
 4. When prompted, sign in to your Expensify account to authorize access.
 
 ## Privacy
 
-Claude accesses only the Expensify account you authorize. Your data is scoped to your account and workspace(s) and is not shared with third parties. See [Expensify's privacy policy](https://use.expensify.com/privacy).
+Claude accesses only the Expensify account you authorize. Your data is scoped to your account and workspace(s) and is not shared with third parties. See [Expensify's privacy policy](https://www.expensify.com/privacy).
