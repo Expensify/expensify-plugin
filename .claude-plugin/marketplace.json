@@ -1,0 +1,17 @@
+{
+  "name": "expensify-plugin",
+  "owner": {
+    "name": "Expensify",
+    "email": "concierge@expensify.com"
+  },
+  "metadata": {
+    "description": "Official Expensify plugins for Claude: connect to your Expensify account and analyze spending."
+  },
+  "plugins": [
+    {
+      "name": "expensify",
+      "source": "./",
+      "description": "Connect Claude to your Expensify account — analyze spending, run expense reports, and get plain-English summaries of your team's financial data."
+    }
+  ]
+}
