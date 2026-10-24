@@ -9,5 +9,6 @@
   "homepage": "https://expensify.com",
   "repository": "https://github.com/Expensify/expensify-plugin",
   "license": "MIT",
+  "privacyPolicyUrl": "https://www.expensify.com/privacy",
   "keywords": ["expensify", "expenses", "finance", "accounting", "mcp"]
 }
