@@ -30,6 +30,14 @@ Compare spending across two periods to identify what changed and why. Claude sur
 
 ### Add this repo as a marketplace (available now)
 
+Run this command in Claude Code (version 2.1.275 or later):
+
+```
+/plugin install expensify --marketplace Expensify/expensify-plugin
+```
+
+Or install manually:
+
 1. Open **Customize → Plugins → Add marketplace** in Claude Cowork.
 2. Enter `Expensify/expensify-plugin` and confirm.
 3. The plugin appears in your marketplace list — click **Install**.
